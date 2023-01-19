@@ -6,6 +6,17 @@
 }
 #team_information{
     display: grid;
-    grid-template-columns: auto auto;
-    border: 1px solid seashell
+    grid-template-columns: auto auto auto;
+    border: 1px solid rgb(12, 12, 12);
+}
+.info{
+    border-bottom: 1px solid black;
+    text-align: center;
+
+}
+#team_information ul{
+    list-style-type: none;
+}
+.team{
+    border-right: 1px solid black;
 }
