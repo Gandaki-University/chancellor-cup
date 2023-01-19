@@ -17,8 +17,9 @@ Base Theme Template Chosen is:
 
 ### [CSS Layouts](https://csslayout.io/)
 
-### [Kulpati Running Shield Proposal](content/admin/About_Kulpati_Running_Shield.pdf)
+#### [Kulpati Running Shield Proposal](content/admin/About_Kulpati_Running_Shield.pdf)
 
+#### [Kulapati Running Shield Proposal in English](content/admin/Kulpaticupbasicinformation.pdf)
 
 ### [Team Information](Team.md)
 
