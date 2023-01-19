@@ -1,3 +1,33 @@
+@media  screen and (min-width:300px) and (max-width:680px) {
+    
+body {
+    background-color: rgb(45, 41, 41);
+}
+h2{
+    text-align: center;
+    font-size:28px;
+    color: rgb(219, 229, 245);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow:5px 5px 10px rgb(165, 166, 169);
+}
+.teams{
+    padding: 10px;
+    margin:12px 15% 12px 15%;
+    height:auto;
+    background-image:linear-gradient(to right,rgb(55, 55, 57),rgb(94, 94, 100),rgb(168, 168, 169))
+}
+button{
+    border: none;
+    background: transparent;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:auto;
+    color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+}
+}
+@media  screen and (min-width:680px){
+    
 body {
     background-color: rgb(45, 41, 41);
 }
@@ -9,10 +39,9 @@ h2{
     text-shadow:5px 5px 10px rgb(165, 166, 169);
 }
 .teams{
-    /* border: 3px solid black; */
     padding: 10px;
     margin:12px 15% 12px 15%;
-    height:70px;
+    height:auto;
     background-image:linear-gradient(to right,rgb(55, 55, 57),rgb(94, 94, 100),rgb(168, 168, 169))
 }
 button{
@@ -23,4 +52,5 @@ button{
     color: rgb(255, 255, 255);
     height: 100%;
     width: 100%;
+}
 }
