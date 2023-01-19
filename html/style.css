@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+
+  header {
+    background-color: #7A7A85;
+    padding: 20px;
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  nav li {
+    margin: 0 10px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+  section#home {
+    text-align: center;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    border: 1px solid #877187;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #dddddd;
+  }
+
+  footer {
+    background-color: #7A7A85;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #game-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f37086;
+    padding: 20px;
+    border: 4px solid #e9f0f5;
+    border-radius: 9px;
+    border-color: #06213E;
+    z-index: 1;
+  }
+  #close-button{
+      background-color: rgb(160, 227, 241);
+      border: 3px solid black;
+      border-radius: 5px;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  #close-button {
+    float: right;
+  }
+
+  body {
+    background-image: url("");
+    background-color:  #FFF8DA;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  #home {
+    background-image: url(" gpu.jpg  ");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  header img {
+    width: 200px;
+    margin-left: -50px;
+    height: auto;
+  }
+  i:first-of-type{
+margin-right: 10px;
+}
+i:second-of-type{
+margin-right: 10px;
+}
+
+i:last-of-type{
+margin-left: 10px;
+}
+
+
+#cover{
+  /* border: 2px solid black; */
+    width: 900px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+     
+    
+
+}
+#box2{
+    width: 800px;
+    height: 400px;
+}
+ img{
+    width:350px;
+     margin-left: 200px;
+     justify-content: center;
+     justify-items: center;
+    height: auto;
+}
+b{
+  margin-left: 197px;
+}
+ 
+ 
+ footer a{
+color: black;
+ }
