@@ -1,0 +1,11 @@
+#team_detail{
+    background: rgb(49, 47, 47);
+    margin: 6%;
+    padding: 4px;
+    text-align: center;
+}
+#team_information{
+    display: grid;
+    grid-template-columns: auto auto;
+    border: 1px solid seashell
+}

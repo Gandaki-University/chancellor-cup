@@ -1,0 +1,19 @@
+{
+    "name":"Team 1",
+    "origin":{
+        "name" : "School 1",
+        "type" : "school",
+        "address":{
+            "district":"Dist 1",
+            "mun": "Rural Municipality 1",
+            "place": "Some Chowk"
+        },
+        "contact":{
+            "phone":"061-5600000",
+            "email": "info@gpu.edu.np"
+        }
+    },
+    "members":[
+        {"type":"player", "position": "goalkeeper", "info":"content/players/player1.json","jersey_no":11}
+    ]
+}

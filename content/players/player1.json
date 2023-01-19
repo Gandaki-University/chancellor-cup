@@ -1,0 +1,10 @@
+{
+    "name":"Hero Player",
+    "age": 12,
+    "nickname": "hawa",
+    "facebook": "some-handle",
+    "contact":{
+        "mobile":"some-no",
+        "email":"some-email"
+    }
+}

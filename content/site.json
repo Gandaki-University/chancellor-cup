@@ -1,0 +1,43 @@
+{
+    "site_details":{
+        "name": "Chancellor Cup",
+        "origin": "Gandaki University",
+        "facts":{
+            "start":"2023-01-23",
+            "frequency": "yearly"
+        },
+        "main-site" : {
+            "site": "www.gpu.edu.np",
+            "contact": {
+                "phone":"061-460249",
+                "email": "info@gandakiuniversity.edu.np"
+            }
+            
+        },
+        "ne":{
+            "name":"कुलपति कप",
+            "origin":"गण्डकी विश्वविद्यालय"
+        },
+        "digital_assets":{
+            "logo":{
+                "jpg":"images/logo.jpg",
+                "png": "images/logo.png"
+            },
+            "slider":[
+                {"heading": "Register Your Team Today", "image":"images/bgr.jpg", "link":"register.html" }
+            ]
+        },
+        "pages":[
+            {"heading":"Home", "url": "index.html", "order":1},
+            {"heading": "Contact Us", "url": "contact.html", "order":10},
+            {"heading": "Teams", "url": "team_list.html", "order": 2},
+            {"heading": "Gallery", "url": "gallery.html", "order": 3},
+            {"heading": "About Us", "url": "about.html", "order": 11},
+            {"heading":"FIXTURES & RESULTS", "url":"fixture.html", "order": 4}
+        ],
+        "events":[
+            "event1"
+        ]
+        
+    }   
+}

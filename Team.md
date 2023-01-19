@@ -16,6 +16,7 @@
 
 ### Content Team
 - Swastika
+- Dhanu
 
 ### Digital Image Assets Team
 

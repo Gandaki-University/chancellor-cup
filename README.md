@@ -15,6 +15,11 @@ Base Theme Template Chosen is:
 
 ### [Theme Template](https://demo.goodlayers.com/?theme=realsoccer)
 
+### [CSS Layouts](https://csslayout.io/)
+
+### [Kulpati Running Shield Proposal](content/admin/About_Kulpati_Running_Shield.pdf)
+
+
 ### [Team Information](Team.md)
 
 Things to Do by CSS Team:

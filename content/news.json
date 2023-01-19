@@ -1,0 +1,11 @@
+[
+    {
+        "title": "News Title",
+        "date": "2023-01-16",
+        "tags": ["Game", "Football", "Event"],
+        "author":["Bilbo Baggins", "Sriram Kafle"],
+        "short-description":" Lorem ipsum short",
+        "description":"Rich Text HTML Content ",
+        "image":"images/awesome-image.jpg"
+    }
+]

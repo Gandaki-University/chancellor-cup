@@ -1,0 +1,19 @@
+[
+    {
+        "date":{
+            "year":2023,
+            "month":01,
+            "day": 11,
+            "time": "11:45 AM",
+            "timezone": "Nepal/Kathmandu"
+        },
+        "teams":[
+            {"name":"team1", "team-info":"content/team/team1.json", "score":0}
+            {"name":"team2", "team-info":"content/team/team2.json", "score":0}
+        ],
+        "result": "Upcoming|Live|Available",
+        "category":["Under 19", "Chancellor Cup", "Internal"],
+        "type":"football",
+        "playedby":"team|single"
+    }
+]

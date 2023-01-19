@@ -1,0 +1,16 @@
+{
+    "start":{
+        "year":2023,
+        "month":1,
+        "day":11
+    },
+    "end":{
+        "year":2023,
+        "month":1,
+        "day":12
+    },
+    "venues":[
+        {"title": "Pokhara Stadium", "address": "Rangasala, Rambazar, Pokhara", "google-plus-code":"7MW56X3R+QHW"}
+    ],
+    "title":"Gandaki University Chancellor Cup - 2023"
+}

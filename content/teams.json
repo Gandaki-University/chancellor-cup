@@ -1,0 +1,22 @@
+[
+    {
+        "name":"Team 1",
+        "info":"content/team/team1.json"
+    },
+    {
+        "name":"Team 2",
+        "origin":{
+            "name" : "School 2",
+            "type" : "school",
+            "address":{
+                "district":"Dist 2",
+                "mun": "Rural Municipality 2",
+                "place": "Some Chowk 2"
+            },
+            "contact":{
+                "phone":"061-5600000",
+                "email": "info@gpu.edu.np"
+            }
+        }
+    }
+]
