@@ -9,16 +9,16 @@
     }
 
     #chancellor img{
-        height: 80px;
-        width: 80px;
+        height: 70px;
+        width: 70px;
         margin-top: 29px;
         margin-left: 5%;
         background: transparent;
         border-radius: 75px;
     }
     #shield img{
-        height: 110px;
-        width: 110px;
+        height: 100px;
+        width: 100px;
         margin-top: -18%;
         margin-left: 40%;
         background: transparent;
@@ -113,17 +113,17 @@
     }
 
     #chancellor img {
-        height: 150px;
-        width: 150px;
+        height: 115px;
+        width: 115px;
         margin-top: 26px;
         margin-left: 5%;
         background: transparent;
         border-radius: 95px;
     }
     #shield img{
-        height: 210px;
-        width: 210px;
-        margin-top: -12%;
+        height: 190px;
+        width: 190px;
+        margin-top: -10%;
         margin-left: 40%;
         background: transparent;
         border-radius: 75px;
@@ -149,7 +149,7 @@
     #nav {
         text-align: center;
         margin: 9%;
-        margin-top: 11%;
+        margin-top: 4%;
         background: rgb(48, 48, 50);
         height: 65px;
     }
@@ -185,7 +185,7 @@
     }
 
     #content .data {
-        margin-top: 16%;
+        margin-top: 22%;
         width: 250px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-shadow: 9px 9px 18px rgb(241, 242, 244);
@@ -207,7 +207,8 @@
     }
     #foot{
         background: rgb(83, 83, 83);
-        height: 200px;
+        justify-content:flex-end;
+        /* height: 200px; */
         padding: 6px;
         margin-left:-8px ;
     }

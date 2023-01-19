@@ -1,5 +1,7 @@
 @media  screen and (min-width:300px) and (max-width:680px) {
-    
+    *{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
 body {
     background-color: rgb(45, 41, 41);
 }
@@ -7,7 +9,6 @@ h2{
     text-align: center;
     font-size:28px;
     color: rgb(219, 229, 245);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow:5px 5px 10px rgb(165, 166, 169);
 }
 .teams{
@@ -19,7 +20,6 @@ h2{
 button{
     border: none;
     background: transparent;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:auto;
     color: rgb(255, 255, 255);
     height: 100%;
@@ -27,7 +27,9 @@ button{
 }
 }
 @media  screen and (min-width:680px){
-    
+    *{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
 body {
     background-color: rgb(45, 41, 41);
 }
@@ -35,7 +37,6 @@ h2{
     text-align: center;
     font-size:50px;
     color: rgb(219, 229, 245);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-shadow:5px 5px 10px rgb(165, 166, 169);
 }
 .teams{
@@ -47,7 +48,6 @@ h2{
 button{
     border: none;
     background: transparent;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size:40px;
     color: rgb(255, 255, 255);
     height: 100%;
