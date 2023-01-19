@@ -8,11 +8,19 @@
         position: relative;
     }
 
-    #chancellor img {
+    #chancellor img{
+        height: 80px;
+        width: 80px;
+        margin-top: 29px;
+        margin-left: 5%;
+        background: transparent;
+        border-radius: 75px;
+    }
+    #shield img{
         height: 110px;
         width: 110px;
-        margin-top: 7px;
-        margin-left: 5%;
+        margin-top: -18%;
+        margin-left: 40%;
         background: transparent;
         border-radius: 75px;
     }
@@ -60,96 +68,108 @@
             height: 65px;
         }
 
-        button {
-            border-style: none;
-            background: transparent;
-            font-size: x-large;
-            color: rgb(244, 244, 244);
+    button {
+        border-style: none;
+        background: transparent;
+        font-size: x-large;
+        color: rgb(244, 244, 244);
+    }
 
+    #nav {
+        text-align: center;
+        margin: 8%;
+        margin-top: 2%;
+        background: rgb(48, 48, 50);
+        /* box-shadow: 0 0 20px 9px rgb(48, 48, 50); */
+        height: 65px;
+    }
+
+    button {
+        border-style: none;
+        background: transparent;
+        font-size: x-large;
+        color: rgb(244, 244, 244);
+
+    }
+
+    button:hover {
+        background-color: rgb(51, 51, 52);
+        font-size: xx-large;
+    }
+
+    #icons button {
+        border: none;
+        font-size: 20px;
+        background: transparent;
+    }
+
+    #icons button:hover {
+        background: rgb(243, 239, 239);
+
+    }
+
+    #nav ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 23px;
+        padding-top: 11px;
+    }
+
+    #nav {
+        text-align: center;
+        margin: 6%;
+        margin-top: 26%;
+        background: rgb(48, 48, 50);
+    }
+
+    #nav button {
+        border-style: none;
+        background: transparent;
+        font-size: large;
+        color: rgb(244, 244, 244);
+
+    }
+
+    #nav button:hover {
+        background-color: rgb(51, 51, 52);
+        font-size: x-large;
+
+
+    }
+
+    #content .class {
+
+        margin-left: 980px;
+        color: antiquewhite;
+        background: white;
+    }
+
+    #content .data {
+        margin-top: 30%;
+        padding: 1px;
+        width: 100px;
+        height: 65px;
+        font-size: 8px;
+        justify-content: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: 9px 9px 18px rgb(255, 255, 255);
+        background: transparent;
+        position: relative;
+        animation: mymove 5s infinite;
+    }
+
+    @keyframes mymove {
+        from {
+            left: 0px;
         }
 
-        button:hover {
-            background-color: rgb(51, 51, 52);
-            font-size: xx-large;
-
-
-        }
-
-        #content .class {}
-
-        #icons button {
-            border: none;
-            font-size: 20px;
-            background: transparent;
-        }
-
-        #icons button:hover {
-            background: rgb(243, 239, 239);
-
-        }
-
-        #nav ul {
-            list-style-type: none;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
-            /* color: antiquewhite; */
-            font-size: 23px;
-            padding-top: 11px;
-        }
-
-        #nav {
-            text-align: center;
-            margin: 6%;
-            margin-top: 26%;
-            background: rgb(48, 48, 50);
-            /* box-shadow: 0 0 20px 9px rgb(48, 48, 50); */
-        }
-
-        #nav button {
-            border-style: none;
-            background: transparent;
-            font-size: large;
-            color: rgb(244, 244, 244);
-
-        }
-
-        #nav button:hover {
-            background-color: rgb(51, 51, 52);
-            font-size: x-large;
-
-
-        }
-
-        #content .class {
-
-            margin-left: 980px;
-            color: antiquewhite;
-            background: white;
-        }
-
-        #content .data {
-            margin-top: 30%;
-            padding: 1px;
-            width: 100px;
-            height: 65px;
-            font-size: 8px;
-            justify-content: center;
-            background: rgb(209, 198, 209);
-            position: relative;
-            animation: mymove 5s infinite;
-        }
-
-        @keyframes mymove {
-            from {
-                left: 0px;
-            }
-
-            to {
-                left: 100px;
-            }
+        to {
+            left: 100px;
         }
     }
+}
 
 @media screen and (min-width:640px) {
     body {
@@ -164,10 +184,18 @@
     #chancellor img {
         height: 150px;
         width: 150px;
-        margin-top: 2px;
+        margin-top: 26px;
         margin-left: 5%;
         background: transparent;
         border-radius: 95px;
+    }
+    #shield img{
+        height: 210px;
+        width: 210px;
+        margin-top: -12%;
+        margin-left: 40%;
+        background: transparent;
+        border-radius: 75px;
     }
 
     #icons {
@@ -199,8 +227,8 @@
 
     #nav {
         text-align: center;
-        margin: 8%;
-        margin-top: 6%;
+        margin: 9%;
+        margin-top: 11%;
         background: rgb(48, 48, 50);
         height: 65px;
     }
@@ -229,11 +257,15 @@
     }
 
     #content .data {
-        margin-top: 25%;
+        margin-top: 16%;
         width: 250px;
-        background: rgb(200, 183, 212);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-shadow: 9px 9px 18px rgb(241, 242, 244);
+        background: transparent;
         position: relative;
+        color: rgb(246, 246, 246);
         animation: mymove 5s infinite;
+
     }
 
     @keyframes mymove {
@@ -244,6 +276,12 @@
         to {
             left: 300px;
         }
+    }
+    #foot{
+        background: rgb(83, 83, 83);
+        height: 200px;
+        padding: 6px;
+        margin-left:-8px ;
     }
 
 }
