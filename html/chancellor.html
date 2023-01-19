@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chancellor Cup</title>
+  <link rel="stylesheet" href="style.css">
+   
+
+</head>
+
+<body>
+
+
+
+  <header>
+    <img src="https://github.com/Gandaki-University/chancellor-cup/blob/master/images/logo.png.png?raw=true" alt="Logo">
+    <h1>CHANCELLOR CUP</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#teams">TEAMS</a></li>
+        <li><a href="#fixtures">FIXTURES</a></li>
+        <li><a href="#results">RESULTS</a></li>
+        <li><a href="#about">ABOUT</a></li>
+      </ul> <br>
+    </nav>
+
+  </header>
+
+
+  <section id="home">
+    <h1>Welcome to the Chancellor Cup Website</h1>
+    <b>Here you can find all the latest information about the Chancellor Cup, including the teams participating, the
+      fixtures, and the results.</b>
+  </section>
+
+  <section id="sec">
+    <div id="cover">
+
+      <div id="box1">
+        <img src="" alt="">
+         
+      </div><br>
+
+      <div id="box2">
+        <img src="gpu.jpg" alt="pokharastadium">
+       <b>Venue:Pokhara stadium</b>
+         
+      </div><br> 
+
+      <div id="box3">
+         
+      </div>
+
+    </div>
+  </section>
+
+  <section id="teams">
+    <h2>Teams</h2>
+    <ul>
+      <li>Team A</li>
+      <li>Team B</li>
+      <li>Team C</li>
+      <li>Team D</li>
+      <li>Team E</li>
+    </ul>
+  </section>
+
+  <section id="fixtures">
+    <h2>Fixtures</h2>
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Home Team</th>
+        <th>Away Team</th>
+        <th>Venue</th>
+      </tr>
+      <tr>
+        <td>Magh 1, 2079</td>
+        <td>Team A</td>
+        <td>Team B</td>
+        <td>Stadium 1</td>
+      </tr>
+      <tr>
+        <td>Magh 1, 2079</td>
+        <td>Team C</td>
+        <td>Team D</td>
+        <td>Stadium 2</td>
+      </tr>
+      <tr>
+        <td>Magh 1, 2079</td>
+        <td>Team E</td>
+        <td>Team A</td>
+        <td>Stadium 3</td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="results">
+    <h2>Results</h2>
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Home Team</th>
+        <th>Away Team</th>
+        <th>Result</th>
+      </tr>
+      <tr>
+        <td>Magh 1, 2079</td>
+        <td>Team A</td>
+        <td>Team B</td>
+        <td>2-0 (Team A Win)</td>
+      </tr>
+      <tr>
+        <td>Magh 1, 2079</td>
+        <td>Team C</td>
+        <td>Team D</td>
+        <td>1-1 (Draw)</td>
+      </tr>
+      <tr>
+        <td>September 8, 2022</td>
+        <td>Team E</td>
+        <td>Team A</td>
+        <td>3-2 (Team E Win)</td>
+      </tr>
+    </table>
+  </section>
+  <section id="about">
+    <h2>About the Chancellor Cup</h2>
+    <p>The Chancellor Cup is an annual football tournament featuring teams from various places of Gandaki Province. 
+      The tournament is among +2 students of different colleges. 
+      The tournament aims to promote sportsmanship and physical fitness among students, 
+      as well as to provide a platform for students to showcase their athletic talents. The tournament 
+      also serves as an
+       opportunity for students to interact and socialize with their peers from other colleges.
+       The tournament is organized by the Gandaki University Sports Council, which is responsible for arranging 
+       the venues, scheduling the matches, and managing the tournament. The council also provides technical
+        support and assistance to the participating teams during the tournament.
+
+       The Chancellor Cup is a highly anticipated event among students and the local community. The tournament 
+       attracts large crowds and generates a lot of excitement and enthusiasm among the participants and spectators. The final match of the tournament is usually held at the university's main stadium and is attended by thousands of people, including students, faculty members, and local residents.
+       
+       The winner of the tournament is awarded the Chancellor Cup trophy and cash prize, and the winning team is
+        honored in a ceremony held at the university. The tournament is also a great opportunity for students to 
+        gain recognition and exposure, as many of the participants go on to represent their respective colleges. 
+       
+       
+    </p>
+  </section>
+  <button id="game-button">Upcoming Game</button>
+  <div id="game-popup" class="hidden">
+    <div class="content">
+      <p>The next game will be held on Magh 21st, 2022 at 7:00 PM at Pokhara Stadium .</p>
+      <button id="close-button">Close</button>
+    </div>
+  </div>
+  <footer>
+    
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <h4>CONTACT US: <a href="   https://www.facebook.com/gandakiuniversity " target="_blank">  
+     
+       <i class="fab fa-facebook">FACEBOOK</i> </a> 
+   
+     <a href="https://www.gandakiuniversity.edu.np/" target="_blank">  
+       <i class="fa fa-globe">SITE</i></a>
+  
+   <a href="   info@gandakiuniversity.edu.np" target="_blank"> 
+   <i class="fas fa-envelope email-icon">GMAIL</i></a><br><br>
+
+   <i class="fa fa-map-marker"></i>
+   Gandaki Province, Mustang Chowk, Pokhara, Kaski, Nepal 
+  
+   <p>Copyright © 2022 Chancellor Cup. All rights reserved.</p>
+ </h4>
+  </footer>
+</body>
+</html>
+
+<script>
+  // Get the game button and game popup elements
+  const gameButton = document.getElementById("game-button");
+  const gamePopup = document.getElementById("game-popup");
+  const closeButton = document.getElementById("close-button");
+
+  // Add an event listener to the game button to show the popup
+  gameButton.addEventListener("click", function () {
+    gamePopup.classList.remove("hidden");
+  });
+
+  // Add an event listener to the close button to hide the popup
+  closeButton.addEventListener("click", function () {
+    gamePopup.classList.add("hidden");
+  });
+</script>
