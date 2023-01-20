@@ -1,7 +1,5 @@
 @media  screen and (min-width:300px) and (max-width:680px) {
-    *{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+    
 body {
     background-color: rgb(45, 41, 41);
 }
@@ -27,9 +25,7 @@ button{
 }
 }
 @media  screen and (min-width:680px){
-    *{
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
+    
 body {
     background-color: rgb(45, 41, 41);
 }

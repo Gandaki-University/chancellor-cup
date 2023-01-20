@@ -1,13 +1,25 @@
+#main_container {
+    background-image: url("../content/bagr.jpg");
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    position:static;
+}
 @media screen and (min-width:360px) and (max-width:640px) {
-    body {
+    *{
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    #main_container {
         background-image: url("../content/bagr.jpg");
-        height: auto;
+        height: 500px;
         background-position: auto;
         background-repeat: no-repeat;
-        background-size: 100% 500px;
-        position: relative;
+        background-size: 100% 600PX;
+        position:relative;
     }
-
     #chancellor img{
         height: 70px;
         width: 70px;
@@ -19,7 +31,7 @@
     #shield img{
         height: 100px;
         width: 100px;
-        margin-top: -18%;
+        margin-top: -21%;
         margin-left: 40%;
         background: transparent;
         border-radius: 75px;
@@ -42,7 +54,7 @@
     #nav {
         text-align: center;
         margin: 8%;
-        margin-top: 2%;
+        margin-top: 16%;
         background: rgb(48, 48, 50);
         /* box-shadow: 0 0 20px 9px rgb(48, 48, 50); */
         height: 65px;
@@ -84,7 +96,6 @@
         height: 65px;
         font-size: 8px;
         justify-content: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-shadow: 9px 9px 18px rgb(255, 255, 255);
         background: transparent;
         position: relative;
@@ -103,15 +114,10 @@
 }
 
 @media screen and (min-width:640px) {
-    body {
-        background-image: url("../content/bagr.jpg");
-        height: 600px;
-        background-position: auto;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        position: relative;
+    *{
+        margin: 0%;
+        padding: 0%;
     }
-
     #chancellor img {
         height: 115px;
         width: 115px;
@@ -123,15 +129,15 @@
     #shield img{
         height: 190px;
         width: 190px;
-        margin-top: -10%;
+        margin-top: -9%;
         margin-left: 40%;
         background: transparent;
         border-radius: 75px;
     }
 
     #icons {
-        margin-left: 85%;
-        margin-top: -95px;
+        margin-left: 80%;
+        margin-top: -10%;
 
     }
 
@@ -149,7 +155,7 @@
     #nav {
         text-align: center;
         margin: 9%;
-        margin-top: 4%;
+        margin-top: 8%;
         background: rgb(48, 48, 50);
         height: 65px;
     }
@@ -187,7 +193,6 @@
     #content .data {
         margin-top: 22%;
         width: 250px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-shadow: 9px 9px 18px rgb(241, 242, 244);
         background: transparent;
         position: relative;
