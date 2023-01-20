@@ -216,6 +216,17 @@
         /* height: 200px; */
         padding: 6px;
         margin-left:-8px ;
+       
     }
-
+    #try{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    #try .foot_contact{
+        width: 30%;
+    }
+  #try .foot_contact p{
+    text-align: justify;
+  }
 }
