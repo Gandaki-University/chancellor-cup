@@ -1,11 +1,54 @@
-#team_detail{
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(212, 215, 218);
+}
+
+#team_detail {
     background: rgb(49, 47, 47);
     margin: 6%;
-    padding: 4px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#container {
+    margin: 8%;
+    padding: 3px;
+}
+
+h2 {
     text-align: center;
 }
-#team_information{
+
+#member {
     display: grid;
-    grid-template-columns: auto auto;
-    border: 1px solid seashell
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;
+    background: rgb(114, 96, 133);
+    border-radius: 13px;
+}
+
+#member ul {
+    list-style-type: none;
+}
+
+.info {
+    border-bottom: 1px solid black;
+    text-align: center;
+
+}
+
+.team {
+    border-right: 1px solid black;
+}
+
+#team_information {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border: 1px solid rgb(12, 12, 12);
+    background: rgb(114, 96, 133);
+    border-radius: 13px;
+}
+
+#team_information ul {
+    list-style-type: none;
 }

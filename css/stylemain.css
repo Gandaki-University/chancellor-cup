@@ -9,16 +9,16 @@
     }
 
     #chancellor img{
-        height: 80px;
-        width: 80px;
+        height: 70px;
+        width: 70px;
         margin-top: 29px;
         margin-left: 5%;
         background: transparent;
         border-radius: 75px;
     }
     #shield img{
-        height: 110px;
-        width: 110px;
+        height: 100px;
+        width: 100px;
         margin-top: -18%;
         margin-left: 40%;
         background: transparent;
@@ -75,6 +75,10 @@
         color: rgb(244, 244, 244);
     }
 
+    #icons button:hover {
+        background: rgb(243, 239, 239);
+
+    }
     #nav {
         text-align: center;
         margin: 8%;
@@ -83,64 +87,31 @@
         /* box-shadow: 0 0 20px 9px rgb(48, 48, 50); */
         height: 65px;
     }
-
-    button {
-        border-style: none;
-        background: transparent;
-        font-size: x-large;
-        color: rgb(244, 244, 244);
-
-    }
-
-    button:hover {
-        background-color: rgb(51, 51, 52);
-        font-size: xx-large;
-    }
-
-    #icons button {
-        border: none;
-        font-size: 20px;
-        background: transparent;
-    }
-
-    #icons button:hover {
-        background: rgb(243, 239, 239);
-
-    }
-
     #nav ul {
         list-style-type: none;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        font-size: 23px;
-        padding-top: 11px;
+        /* color: antiquewhite; */
+        font-size: x-large;
+        padding-top: 15px;
     }
 
-    #nav {
-        text-align: center;
-        margin: 6%;
-        margin-top: 26%;
-        background: rgb(48, 48, 50);
-    }
+    
 
     #nav button {
         border-style: none;
         background: transparent;
-        font-size: large;
+        font-size: x-large;
         color: rgb(244, 244, 244);
 
     }
 
     #nav button:hover {
         background-color: rgb(51, 51, 52);
-        font-size: x-large;
-
-
+        font-size: xx-large;
     }
-
     #content .class {
-
         margin-left: 980px;
         color: antiquewhite;
         background: white;
@@ -182,17 +153,17 @@
     }
 
     #chancellor img {
-        height: 150px;
-        width: 150px;
+        height: 115px;
+        width: 115px;
         margin-top: 26px;
         margin-left: 5%;
         background: transparent;
         border-radius: 95px;
     }
     #shield img{
-        height: 210px;
-        width: 210px;
-        margin-top: -12%;
+        height: 190px;
+        width: 190px;
+        margin-top: -10%;
         margin-left: 40%;
         background: transparent;
         border-radius: 75px;
@@ -215,7 +186,13 @@
         background: rgb(169, 167, 167);
 
     }
-
+    #nav {
+        text-align: center;
+        margin: 9%;
+        margin-top: 4%;
+        background: rgb(48, 48, 50);
+        height: 65px;
+    }
     #nav ul {
         list-style-type: none;
         display: flex;
@@ -224,15 +201,6 @@
         font-size: x-large;
         padding-top: 15px;
     }
-
-    #nav {
-        text-align: center;
-        margin: 9%;
-        margin-top: 11%;
-        background: rgb(48, 48, 50);
-        height: 65px;
-    }
-
     #nav button {
         border-style: none;
         background: transparent;
@@ -257,7 +225,7 @@
     }
 
     #content .data {
-        margin-top: 16%;
+        margin-top: 22%;
         width: 250px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-shadow: 9px 9px 18px rgb(241, 242, 244);
@@ -279,7 +247,8 @@
     }
     #foot{
         background: rgb(83, 83, 83);
-        height: 200px;
+        justify-content:flex-end;
+        /* height: 200px; */
         padding: 6px;
         margin-left:-8px ;
     }
