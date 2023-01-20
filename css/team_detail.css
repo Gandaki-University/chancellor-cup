@@ -5,7 +5,8 @@
 
 #team_detail {
     background: rgb(49, 47, 47);
-    margin: 6%;
+    margin: 5%;
+    padding: 2%;
     text-align: center;
     border-radius: 25px;
 }
@@ -21,10 +22,9 @@ h2 {
 
 #member {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     border: 1px solid black;
     background: rgb(114, 96, 133);
-    border-radius: 13px;
 }
 
 #member ul {
@@ -46,7 +46,6 @@ h2 {
     grid-template-columns: auto auto auto;
     border: 1px solid rgb(12, 12, 12);
     background: rgb(114, 96, 133);
-    border-radius: 13px;
 }
 
 #team_information ul {

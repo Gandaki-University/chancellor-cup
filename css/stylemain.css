@@ -1,5 +1,6 @@
 #main_container {
     background-image: url("../content/bagr.jpg");
+    height: 800px;
     background-position: auto;
     background-repeat: no-repeat;
     background-size: 100% auto;
@@ -14,7 +15,6 @@
     }
     #main_container {
         background-image: url("../content/bagr.jpg");
-        height: 500px;
         background-position: auto;
         background-repeat: no-repeat;
         background-size: 100% 600PX;
@@ -212,21 +212,8 @@
     }
     #foot{
         background: rgb(83, 83, 83);
-        justify-content:flex-end;
-        /* height: 200px; */
         padding: 6px;
         margin-left:-8px ;
        
     }
-    #try{
-        display: flex;
-        flex-direction: row;
-        
-    }
-    #try .foot_contact{
-        width: 30%;
-    }
-  #try .foot_contact p{
-    text-align: justify;
-  }
 }
