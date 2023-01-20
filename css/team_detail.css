@@ -2,9 +2,13 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(212, 215, 218);
 }
+body{
+    background-color: #cbdcc6;
+
+}
 
 #team_detail {
-    background: rgb(49, 47, 47);
+    background: rgb(173, 164, 164);
     margin: 5%;
     padding: 2%;
     text-align: center;
@@ -14,6 +18,8 @@
 #container {
     margin: 8%;
     padding: 3px;
+    text-align: left;
+
 }
 
 h2 {
@@ -29,6 +35,9 @@ h2 {
 
 #member ul {
     list-style-type: none;
+}
+#container li:nth-child(even){
+    background-color: rgb(61, 81, 81);
 }
 
 .info {

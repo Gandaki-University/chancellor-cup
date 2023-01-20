@@ -12,6 +12,8 @@
     <script src="../js/home.js"></script>
 </head>
 
+
+
 <body>
     <div id="main_container">
         <div id="chancellor">
@@ -29,14 +31,43 @@
             </button>
         </div>
 
-        <div id="nav">
-            <ul>
-                <li><button onclick="home()">Home</button></li>
-                <li><button onclick="team()">Team List</button></li>
-                <li><button onclick="result()">Fixture and Result</button></li>
-                <li><button onclick="about_us()">About Us</button></li>
-                <li><button onclick="gallery()">Gallery</button></li>
-            </ul>
+        <div>
+            <nav class="main-navbar">
+                <div>
+                    <div id="nav">
+                        <ul>
+                            <li><button onclick="home()">Home</button></li>
+                            <li><button onclick="team()">Team List</button></li>
+                            <li><button onclick="result()">Fixture and Result</button></li>
+                            <li><button onclick="about_us()">About Us</button></li>
+                            <li><button onclick="gallery()">Gallery</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="top-navbar">
+                <button onclick="open_aside()"> <i class="fa fa-bars"></i>Menu </button>
+                <div style="margin-left: 10px;">
+                    <!-- put your logo code here -->
+                    
+                </div>
+            </div>
+            <div class="aside-navbar" id="aside-navbar">
+                <ul class="aside-links">
+                    <li class="aside-close">
+                        <button class="close-btn" onclick="close_aside()"> X </button>
+                        <div style="margin-left: 10px;">
+                            <span> Navigations </span>
+                        </div>
+                    </li>
+                    <li><button class="link-item" onclick="home()">Home</button></li>
+                    <li><button class="link-item" onclick="team()">Team List</button></li>
+                    <li><button class="link-item" onclick="result()">Fixture and Result</button></li>
+                    <li><button class="link-item" onclick="about_us()">About Us</button></li>
+                    <li><button class="link-item" onclick="gallery()">Gallery</button></li>
+    
+                </ul>
+            </div>
         </div>
 
         <div id="content">
@@ -53,5 +84,13 @@
         </div>
     </div>
 </body>
+<script type="text/javascript">
+    function open_aside() {
+        document.getElementById('aside-navbar').classList.add('aside-open');
+    }
+    function close_aside() {
+        document.getElementById('aside-navbar').classList.remove('aside-open');
+    }
+</script>
 
 </html>
