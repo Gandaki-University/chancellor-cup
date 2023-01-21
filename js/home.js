@@ -13,3 +13,9 @@ function about_us(){
 function gallery(){
     window. location. href = "../html/gallery.html";
 }
+    function open_aside() {
+        document.getElementById('aside-navbar').classList.add('aside-open');
+    }
+    function close_aside() {
+        document.getElementById('aside-navbar').classList.remove('aside-open');
+    }

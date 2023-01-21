@@ -5,34 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../css/stylemain.css">
     <script src="../js/home.js"></script>
 
 </head>
 <body>
-    <div id="chancellor">
-        <img src="../content/logo1.jpg" alt="logo here" >
-    </div>
-    <div id="shield">
-        <img src="../images/shield_edit.png" alt="logo here" >
-    </div>
-    <div id="icons">
-        <button>
-            <a href="https://www.facebook.com/gandakiuniversity"><i class="fa fa-facebook-square"></i></a>
-        </button>
-        <button>
+    <div id="main_container">
+        <div id="chancellor">
+            <img src="../content/logo1.jpg" alt="logo here">
+        </div>
+        <div id="shield">
+            <img src="../images/shield_edit.png" alt="logo here">
+        </div>
+        <div id="icons">
+            <button>
+                <a href="https://www.facebook.com/gandakiuniversity" style="color:rgb(51, 51, 108)"><i class="fa fa-facebook"></i></a>
+            </button>
+            <button>
+                <a href="https://www.gandakiuniversity.edu.np/" style="color:rgb(58, 58, 108)"><i class="fa fa-google"></i></a>
+            </button>
+        </div>
 
-            <a href="https://www.gandakiuniversity.edu.np/"><i class="fa fa-google"></i></a>
-        </button>
+        <div>
+            <nav class="main-navbar">
+                <div>
+                    <div id="nav">
+                        <ul>
+                            <li><button onclick="home()">Home</button></li>
+                            <li><button onclick="team()">Team List</button></li>
+                            <li><button onclick="result()">Fixture and Result</button></li>
+                            <li><button onclick="about_us()">About Us</button></li>
+                            <li><button onclick="gallery()">Gallery</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="top-navbar">
+                <button onclick="open_aside()"> <i class="fa fa-bars"></i>Menu </button>
+                <div style="margin-left: 10px;">
+                    <!-- put your logo code here -->
+                    
+                </div>
+            </div>
+            <div class="aside-navbar" id="aside-navbar">
+                <ul class="aside-links">
+                    <li class="aside-close">
+                        <button class="close-btn" onclick="close_aside()"> X </button>
+                        <div style="margin-left: 10px;">
+                            <span> Navigations </span>
+                        </div>
+                    </li>
+                    <li><button class="link-item" onclick="home()">Home</button></li>
+                    <li><button class="link-item" onclick="team()">Team List</button></li>
+                    <li><button class="link-item" onclick="result()">Fixture and Result</button></li>
+                    <li><button class="link-item" onclick="about_us()">About Us</button></li>
+                    <li><button class="link-item" onclick="gallery()">Gallery</button></li>
+    
+                </ul>
+            </div>
+        </div>
     </div>
-    <div id="nav">
-        <ul>
-            <li><button onclick="home()">Home</button></li>
-            <li><button onclick="team()">Team List</button></li>
-            <li><button onclick="result()">Fixture and Result</button></li>
-            <li><button onclick="about_us()">About Us</button></li>
-            <li><button onclick="gallery()">Gallery</button></li>
-        </ul>
-</div>
 </body>
 </html>

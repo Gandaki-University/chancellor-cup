@@ -2,17 +2,9 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(212, 215, 218);
 }
-body{
-    background-color: #cbdcc6;
-
-}
-
 #team_detail {
-    background: rgb(173, 164, 164);
-    margin: 5%;
-    padding: 2%;
+    background-color: #cbdcc6;
     text-align: center;
-    border-radius: 25px;
 }
 
 #container {

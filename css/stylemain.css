@@ -1,31 +1,23 @@
-#main_container {
-    background-image: url("../content/bagr.jpg");
-    height: 800px;
-    background-position: auto;
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    position:static;
-}
+
 
 @media screen and (min-width:360px) and (max-width:640px) {
     *{
         margin: 0%;
         padding: 0%;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
     }
     #main_container {
         background-image: url("../content/bagr.jpg");
         background-position: auto;
         background-repeat: no-repeat;
-        background-size: 100% 600PX;
-        position:relative;
+        background-size: 500px 500PX;
+        position:static;
     }
     #chancellor img{
         height: 70px;
         width: 70px;
         margin-top: 29px;
-        margin-left: 5%;
+        margin-left: 16%;
         background: transparent;
         border-radius: 75px;
     }
@@ -47,11 +39,10 @@
         font-size: 20px;
         background: transparent;
     }
-
-    #icons button:hover {
-        background: rgb(243, 239, 239);
-
+    #icons button :hover{
+        background: transparent;
     }
+
       /*		hiding main navbar in mobile	*/
       .main-navbar {
         display: none;
@@ -62,7 +53,8 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        width: 100%;
+        width: 40%;
+        margin-top: -8%;
         padding: 10px 10px;
     }
     .aside-navbar {
@@ -107,7 +99,7 @@
     }
     .aside-links .close-btn:hover {
         background: #fff;
-        color: #f00;
+        color: rgb(234, 27, 27);
     }
     .aside-links .link-item {
         padding: 10px;
@@ -124,7 +116,7 @@
         background: #fff;
         color: #000;
     }
-}
+
     #content .class {
         margin-left: 980px;
         color: antiquewhite;
@@ -132,7 +124,7 @@
     }
 
     #content .data {
-        margin-top: 30%;
+        margin-top: 60%;
         padding: 1px;
         width: 100px;
         height: 65px;
@@ -155,10 +147,18 @@
     }
 }
 
+
 @media screen and (min-width:640px) {
     *{
         margin: 0%;
         padding: 0%;
+    }
+    #main_container {
+        background-image: url("../content/bagr.jpg");
+        background-position: auto;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+        position:static;
     }
     #chancellor img {
         height: 115px;
@@ -247,7 +247,7 @@
     }
 
     #content .data {
-        margin-top: 22%;
+        margin-top: 14%;
         width: 250px;
         text-shadow: 9px 9px 18px rgb(241, 242, 244);
         background: transparent;
