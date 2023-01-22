@@ -38,6 +38,9 @@
         "events":[
             "event1"
         ],
+        "links":[
+            {"title":"Link 1", "webLink": "www.link1.com"}
+        ],
         "footer":[
         {"heading":"About Us",
         "discription":"Short Description about Gandaki University"},
