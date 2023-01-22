@@ -14,8 +14,8 @@
         position:static;
     }
     #chancellor img{
-        height: 70px;
-        width: 70px;
+        height: 40px;
+        width: 40px;
         margin-top: 29px;
         margin-left: 16%;
         background: transparent;
@@ -93,8 +93,9 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        font-size: large;
         width: 40%;
-        margin-top: -8%;
+        margin: 5%;
         padding: 10px 10px;
     }
     .aside-navbar {

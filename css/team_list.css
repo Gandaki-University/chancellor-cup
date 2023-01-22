@@ -12,6 +12,14 @@ h2{
     color: rgb(159, 67, 64);
     text-shadow:5px 5px 10px rgb(210, 78, 31);
 }
+#main_container {
+    background-image: url("../content/bagr.jpg");
+    background-position: auto;
+    background-repeat: no-repeat;
+    background-size: 500px 500PX;
+    position:static;
+    height: 275px;
+}
 .teams{
     padding: 10px;
     margin:12px 15% 12px 15%;

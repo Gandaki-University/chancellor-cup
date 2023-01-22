@@ -1,0 +1,10 @@
+@media screen and (min-width:300px) and (max-width:680px) {
+    #main_container {
+        background-image: url("../content/bagr.jpg");
+        background-position: auto;
+        background-repeat: no-repeat;
+        background-size: 500px 500PX;
+        position:static;
+        height: 275px;
+    }
+}
