@@ -7,80 +7,133 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team detail</title>
     <link rel="stylesheet" href="css/team_detail.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/stylemain.css">
+    <script src="js/home.js"></script>
+
 </head>
 
 <body>
-    <div id="team_detail">
-        <div id="name">
-            <h1>Name of the team</h1>
-            <span>address of the team</span><br>
-            <span>email and phone number</span>
+    <div id="main_container">
+        <div id="chancellor">
+            <img src="content/logo1.jpg" alt="logo here">
         </div>
-    </div>
-    <div id="container">
-    <h2>Team members Details</h2>
-    <div id="member">
-        <div id="member_name" class="team">
-        <div class="info">Name</div>
-        <ol>
-            <li>Ramos</li>
-            <li>Gianluigi</li>
-            <li>tshuvu</li>
-        </ol>
-    </div>
-    <div id="member_status" class="team">
-        <div class="info">Status</div>
-        <ul>
-            <li>Team Manager</li>
-            <li>Team Coach</li>
-            <li>Team Official</li>
-        </ul>
-    </div>
-    <div id="member_contact">
-        <div class="info">Contact_no</div>
-        <ul>
-            <li>9821642530</li>
-            <li>9821642530</li>
-            <li>9821642530</li>
-        </ul>
+        <div id="shield">
+            <img src="images/shield_edit.png" alt="logo here">
+        </div>
+        <div id="icons">
+            <button>
+                <a href="https://www.facebook.com/gandakiuniversity" style="color:rgb(51, 51, 108)"><i
+                        class="fa fa-facebook"></i></a>
+            </button>
+            <button>
+                <a href="https://www.gandakiuniversity.edu.np/" style="color:rgb(58, 58, 108)"><i
+                        class="fa fa-google"></i></a>
+            </button>
+        </div>
 
-    </div>
-    </div>
-    <br><br><br>
-    <h2>Team Players Details</h2>
-    <div id="team_information">
-        <div id="player_name" class="team">
-            <div class="info">Name</div>
-            <ol>
-                <li>Neymar</li>
-                <li>Lionel Messi</li>
-                <li>Kylian Mbappé</li>
-                <li>Gianluigi Donnarumma</li>
-                <li>Sergio Ramos</li>
-            </ol>
+        <div>
+            <nav class="main-navbar">
+                <div>
+                    <div id="nav">
+                        <ul>
+                            <li><button onclick="home()">Home</button></li>
+                            <li><button onclick="team()">Team List</button></li>
+                            <li><button onclick="result()">Fixture and Result</button></li>
+                            <li><button onclick="about_us()">About Us</button></li>
+                            <li><button onclick="gallery()">Gallery</button></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="top-navbar">
+                <button onclick="open_aside()"> <i class="fa fa-bars"></i>Menu </button>
+                <div style="margin-left: 10px;">
+                    <!-- put your logo code here -->
+
+                </div>
+            </div>
+            <div class="aside-navbar" id="aside-navbar">
+                <ul class="aside-links">
+                    <li class="aside-close">
+                        <button class="close-btn" onclick="close_aside()"> X </button>
+                        <div style="margin-left: 10px;">
+                            <span> Navigations </span>
+                        </div>
+                    </li>
+                    <li><button class="link-item" onclick="home()">Home</button></li>
+                    <li><button class="link-item" onclick="team()">Team List</button></li>
+                    <li><button class="link-item" onclick="result()">Fixture and Result</button></li>
+                    <li><button class="link-item" onclick="about_us()">About Us</button></li>
+                    <li><button class="link-item" onclick="gallery()">Gallery</button></li>
+
+                </ul>
+            </div>
         </div>
-        <div id="player_position" class="team">
-            <div class="info">Position</div>
-            <ul>
-                <li>mf</li>
-                <li>lf</li>
-                <li>rf</li>
-                <li>gk</li>
-                <li>bb</li>
-            </ul>
-        </div>
-        <div id="player_jersey_no" >
-            <div class="info">Jersey</div>
-            <ul>
-                <li>mf</li>
-                <li>lf</li>
-                <li>rf</li>
-                <li>gk</li>
-                <li>cb</li>
-            </ul>
+        <div id="team_detail">
+            <div id="name">
+                <h1>Name of the team</h1>
+                <span>address of the team</span><br>
+                <span>email and phone number</span>
+            </div>
+            <div id="container">
+                <h2>Team members Details</h2>
+                <div id="member">
+                    <div id="member_name" class="team">
+                        <div class="info">Name</div>
+                        <ol>
+                            <li>Ramos</li>
+                            <li>Gianluigi</li>
+                            <li>tshuvu</li>
+                        </ol>
+                    </div>
+                    <div id="member_status">
+                        <div class="info">Status</div>
+                        <ul>
+                            <li>Team Manager</li>
+                            <li>Team Coach</li>
+                            <li>Team Official</li>
+                        </ul>
+                    </div>
+                </div>
+                <br><br><br>
+                <h2>Team Players Details</h2>
+                <div id="team_information">
+                    <div id="player_name" class="team">
+                        <div class="info">Name</div>
+                        <ol>
+                            <li>Neymar</li>
+                            <li>Lionel Messi</li>
+                            <li>Kylian Mbappé</li>
+                            <li>Gianluigi Donnarumma</li>
+                            <li>Sergio Ramos</li>
+                        </ol>
+                    </div>
+                    <div id="player_position" class="team">
+                        <div class="info">Position</div>
+                        <ul>
+                            <li>mf</li>
+                            <li>lf</li>
+                            <li>rf</li>
+                            <li>gk</li>
+                            <li>bb</li>
+                        </ul>
+                    </div>
+                    <div id="player_jersey_no">
+                        <div class="info">Jersey</div>
+                        <ul>
+                            <li>mf</li>
+                            <li>lf</li>
+                            <li>rf</li>
+                            <li>gk</li>
+                            <li>cb</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
-</div>
 </body>
 
 </html>
