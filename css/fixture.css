@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
 }
+
 #container{
-    background-color: #cbdcc6;
+    background-color: #97a592;
 }
 .fixture_head{
     display: flex;
@@ -33,13 +34,15 @@
     margin-left: 170px;
 }
 @media screen and (max-width: 480px){
-    #main_container{
-        height: 100%;
-        width: 100%;
+    #main_container {
+        background-image: url("../content/bagr.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 500PX;
+        position:static;
+        height: 275px;
     }
-    #container{
-margin-top: 19%;
-    }
+   
+    
     .fixture_head{
         display: inline-block;
         
@@ -59,7 +62,15 @@ margin-top: 19%;
     
 }
 @media screen and (max-width: 786px){
-    #main_container{
+    #main_container {
+        background-image: url("../content/bagr.jpg");
+        background-position: auto;
+        background-repeat: no-repeat;
+        background-size: 500px 500PX;
+        position:static;
+        height: 275px;
+    }
+    #all{
         height: 100%;
         width: 100%;
     }
