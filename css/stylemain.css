@@ -1,25 +1,30 @@
+
+
 @media screen and (min-width:360px) and (max-width:640px) {
-    body {
+    *{
+        margin: 0%;
+        padding: 0%;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #main_container {
         background-image: url("../content/bagr.jpg");
-        height: auto;
         background-position: auto;
         background-repeat: no-repeat;
-        background-size: 100% 500px;
-        position: relative;
+        background-size: 500px 500PX;
+        position:static;
     }
-
     #chancellor img{
         height: 70px;
         width: 70px;
         margin-top: 29px;
-        margin-left: 5%;
+        margin-left: 16%;
         background: transparent;
         border-radius: 75px;
     }
     #shield img{
         height: 100px;
         width: 100px;
-        margin-top: -18%;
+        margin-top: -21%;
         margin-left: 40%;
         background: transparent;
         border-radius: 75px;
@@ -74,43 +79,84 @@
         font-size: x-large;
         color: rgb(244, 244, 244);
     }
-
-    #icons button:hover {
-        background: rgb(243, 239, 239);
-
-    }
-    #nav {
-        text-align: center;
-        margin: 8%;
-        margin-top: 2%;
-        background: rgb(48, 48, 50);
-        /* box-shadow: 0 0 20px 9px rgb(48, 48, 50); */
-        height: 65px;
-    }
-    #nav ul {
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        /* color: antiquewhite; */
-        font-size: x-large;
-        padding-top: 15px;
-    }
-
-    
-
-    #nav button {
-        border-style: none;
+    #icons button :hover{
         background: transparent;
-        font-size: x-large;
-        color: rgb(244, 244, 244);
-
     }
 
-    #nav button:hover {
-        background-color: rgb(51, 51, 52);
-        font-size: xx-large;
+      /*		hiding main navbar in mobile	*/
+      .main-navbar {
+        display: none;
     }
+
+    /*		showing top navbar in mobile	*/
+    .top-navbar {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 40%;
+        margin-top: -8%;
+        padding: 10px 10px;
+    }
+    .aside-navbar {
+        display: none;
+        position: fixed;
+        left: 0;
+        top: 0;
+        z-index: 999;
+        width: 100%;
+        background: #000;
+        height: 100%;
+        padding: 10px 13px;
+        box-sizing: border-box;
+    }
+    .aside-close {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    .aside-navbar.aside-open {
+        display: block;
+    }
+    .aside-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .aside-links .close-btn {
+        padding: 10px;
+        background: #f00;
+        border-radius: 50px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: #fff;
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+    .aside-links .close-btn:hover {
+        background: #fff;
+        color: rgb(234, 27, 27);
+    }
+    .aside-links .link-item {
+        padding: 10px;
+        background: rgba(255,255,255, .1);
+        border-radius: 5px;
+        margin-bottom: 10px;
+        display: block;
+        width: 100%;
+        text-align: left;
+        text-decoration: none;
+        color: #fff;
+    }
+    .aside-links .link-item:hover {
+        background: #fff;
+        color: #000;
+    }
+
     #content .class {
         margin-left: 980px;
         color: antiquewhite;
@@ -118,13 +164,12 @@
     }
 
     #content .data {
-        margin-top: 30%;
+        margin-top: 60%;
         padding: 1px;
         width: 100px;
         height: 65px;
         font-size: 8px;
         justify-content: center;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-shadow: 9px 9px 18px rgb(255, 255, 255);
         background: transparent;
         position: relative;
@@ -142,16 +187,19 @@
     }
 }
 
+
 @media screen and (min-width:640px) {
-    body {
+    *{
+        margin: 0%;
+        padding: 0%;
+    }
+    #main_container {
         background-image: url("../content/bagr.jpg");
-        height: 600px;
         background-position: auto;
         background-repeat: no-repeat;
-        background-size: 100%;
-        position: relative;
+        background-size: 100% auto;
+        position:static;
     }
-
     #chancellor img {
         height: 115px;
         width: 115px;
@@ -163,15 +211,15 @@
     #shield img{
         height: 190px;
         width: 190px;
-        margin-top: -10%;
+        margin-top: -9%;
         margin-left: 40%;
         background: transparent;
         border-radius: 75px;
     }
 
     #icons {
-        margin-left: 85%;
-        margin-top: -95px;
+        margin-left: 80%;
+        margin-top: -10%;
 
     }
 
@@ -189,32 +237,46 @@
     #nav {
         text-align: center;
         margin: 9%;
-        margin-top: 4%;
+        margin-top: 8%;
         background: rgb(48, 48, 50);
+        
         height: 65px;
-    }
-    #nav ul {
+        }
+        #nav ul {
         list-style-type: none;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         font-size: x-large;
         padding-top: 15px;
-    }
-    #nav button {
+        }
+        #nav button {
         border-style: none;
         background: transparent;
         font-size: x-large;
         color: rgb(244, 244, 244);
-
-    }
-
-    #nav button:hover {
+        
+        }
+        
+        #nav button:hover {
         background-color: rgb(51, 51, 52);
         font-size: xx-large;
-
-
-    }
+        }
+    
+        .main-navbar {
+            display: block;
+            width: 100%;
+            border-bottom: 1px solid #ccc;
+            padding: 10px 10px;
+        }
+    
+        /*		hiding top navbar in desktop	*/
+        .top-navbar {
+            display: none;
+        }
+        .aside-navbar {
+            display: none;
+        }
 
     #content .class {
 
@@ -225,9 +287,8 @@
     }
 
     #content .data {
-        margin-top: 22%;
+        margin-top: 14%;
         width: 250px;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         text-shadow: 9px 9px 18px rgb(241, 242, 244);
         background: transparent;
         position: relative;
@@ -247,10 +308,8 @@
     }
     #foot{
         background: rgb(83, 83, 83);
-        justify-content:flex-end;
-        /* height: 200px; */
         padding: 6px;
         margin-left:-8px ;
+       
     }
-
 }

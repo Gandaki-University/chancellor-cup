@@ -1,12 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    font-size: 32px;
 }
-html,body{
-        background-color: #f9f9f9;
-
-    }
+#container{
+    background-color: #cbdcc6;
+}
 .fixture_head{
     display: flex;
     justify-content: space-around;
@@ -36,8 +34,12 @@ html,body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 @media screen and (max-width: 480px){
-    *{
-        font-size: 18px;
+    #main_container{
+        height: 100%;
+        width: 100%;
+    }
+    #container{
+margin-top: 19%;
     }
     .fixture_head{
         display: inline-block;
@@ -58,8 +60,9 @@ html,body{
     
 }
 @media screen and (max-width: 786px){
-    *{
-        font-size: 30px;
+    #main_container{
+        height: 100%;
+        width: 100%;
     }
     .fixture_head{
         display: inline-block;
@@ -83,11 +86,13 @@ html,body{
     
 }
 @media screen and (max-width: 1024px){
-    *{
-        font-size: 34px;
-    }
+    
     .fixture_sub1{
         margin-left: 15px;
         padding-left: 30px;
+    }
+    .header_main{
+        background-color: #cbdcc6;
+
     }
 }

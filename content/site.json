@@ -37,6 +37,11 @@
         ],
         "events":[
             "event1"
+        ],
+        "footer":[
+        {"heading":"About Us",
+        "discription":"Short Description about Gandaki University"},
+        {"heading":"Useful Links","label":"link for sponsors"}
         ]
         
     }   
